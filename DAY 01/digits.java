@@ -7,8 +7,8 @@ public class digits {
         int count = 0;
 
         while (n > 0) {
-            n /= 10; // Remove the last digit
-            count++; // Increment the count of digits
+            n /= 10;
+            count++;
         }
 
         System.out.println(count);
